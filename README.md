@@ -6,8 +6,12 @@ cadastram propriedades; clientes buscam, reservam e pagam online.
 
 <img width="1600" height="823" alt="image" src="https://github.com/user-attachments/assets/9422cffc-6538-4e47-9044-f8fedf4d862a" />
 
-> **Projeto legado.** Aplicação antiga (~2019), recuperada de um backup completo de cPanel
-> de março/2022. Stack já obsoleta. Mantido aqui para arquivo histórico e referência.
+> **Projeto legado — só pra lembrar como era.**
+> Aplicação antiga (~2019), recuperada de um backup completo de cPanel de março/2022.
+> Stack já obsoleta. Mantido aqui puramente por nostalgia e referência histórica — não é
+> um projeto ativo, não recebe manutenção, e as credenciais/APIs do código são antigas e inválidas.
+
+**🌐 Demo ao vivo:** https://nspace-web.fly.dev/ *(hospedado no Fly.io, pode ter ~2s de cold start)*
 
 ## Stack
 
