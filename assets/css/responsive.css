@@ -1,0 +1,274 @@
+@media (min-width: 300px) and (max-width: 800px) {
+	.action.versaoMobile {
+	    display: block;
+	}
+
+	.sd-list-right .action.versaoMobile a {
+        margin-right: 5px;
+	    font-size: 12px;
+	    display: block;
+	    background: #474f5f;
+	    text-align: center;
+	    line-height: 32px;
+	    border-radius: 3px;
+	    color: #fff !important;
+	    padding: 9px 25px;
+	    margin-bottom: 5px;
+	    width: auto;
+	    height: auto;
+	}
+
+	.action.versaoWeb {
+	    display: none;
+	}
+
+	.btn-warning, .btn-warning.disabled {
+		margin-bottom: 10px;
+	}
+
+	.navigation-portrait .nav-menu.nav-menu-social > li {
+	    width: 100%;
+	}
+
+	h4.modal-header-title {
+	    margin: 2rem 0 1em;
+	}
+
+	.drops-dashboard {
+	    display: block;
+	}
+
+	.modelCriacaoPropriedade .formularioPasso .guiaForm {
+	    display: grid;
+	    margin-bottom: 50px;
+	}
+
+	.modelCriacaoPropriedade .formularioPasso .guiaForm li.mr-30 {
+	    margin-right: 0px;
+	}
+
+	.modelCriacaoPropriedade .formularioPasso .guiaForm li {
+		margin-bottom: 10px;
+	}
+
+	.btn.btn-order-by-filt {
+		color: #000 !important;
+	}
+
+	.bg-depoimentos {
+		background-size: cover !important;
+	}
+
+	.AutoComplete {
+	    z-index: 999999999999 !important;
+	    top: 58px;
+	    left: 5px;
+	    width: 356px;
+	}
+
+	.filter-fl h4 {
+	    width: 100%;
+	    flex: initial;
+	    margin-bottom: 19px;
+	    text-align: center;
+	}
+
+	.filter-fl {
+	    display: block;
+	}
+
+	.btn-group, .btn-group-vertical {
+	    display: inline-grid;
+	    margin-bottom: 25px;
+	    width: 100%;
+	}
+
+	section {
+	    padding: 30px 0;
+	}
+
+	.property3-slide .slider-for .maxedHei {
+	    overflow: hidden;
+	    height: 250px;
+	}
+
+	.property3-slide .slider-nav .item-slick.maxedHei {
+	    overflow: hidden;
+	    height: 64px;
+	}
+
+	.single-advance-property .slider-nav .item-slick img {
+	    min-height: 55px;
+	}
+
+	.blocoCadastro .social-login ul li a.g-signin2 .abcRioButtonIcon {
+	    right: 72%;
+	}
+
+	.blocoLogin .social-login ul li a.g-signin2 .abcRioButtonIcon {
+	    right: 72%;
+	}
+
+	.blocoCadastro .displayMobile {
+		display: block;
+	}
+
+	.blocoCadastro .displayComputador {
+		display: none;
+	}
+
+	.breadcumb .menuAcompanhador {
+	    display: block;
+	    padding-left: 0px;
+	}
+
+	.model-minhas-propriedades .imagemAnuncio {
+	    height: 180px;
+	}
+
+	.model-minhas-propriedades .imagemAnuncio img {
+	     height: auto !important; 
+	}
+
+	.singles-dashboard-list .infoPlanos a {
+		position: relative;
+	    padding: 10px;
+	    display: block;
+	    width: 100%;
+	    right: 0px;
+	}
+
+	.tabela-nspace {
+	    overflow: hidden;
+    	overflow-x: auto;
+	}
+
+	.model-minhas-propriedades label.status-anuncio,
+	.model-minhas-propriedades label.status-pagamento	{ 
+		position: initial;
+	}
+
+	.singles-dashboard-list .statusAnuncio, .singles-dashboard-list .statusPagamento {
+	    position: initial;
+	    margin-bottom: 10px;
+	}
+
+	.model-minhas-propriedades .noficicacaoStatus {
+		padding: 15px;
+    	text-align: center;
+	}
+
+	.model-minhas-propriedades .infoPlanos {
+		padding: 15px 20px 17px;
+	}
+
+	table.table thead th { 
+    	width: 130px;
+	}
+
+	.modelClientePainel .linkAfiliado .buttonCoppy {
+	     float: initial; 
+	     margin-top: 0px; 
+	}
+
+	.modelClientePainel .linkAfiliado p {
+	    margin-bottom: 0px;
+	    font-size: 13px;
+	}
+
+	.model-minhas-propriedades .sd-list-left.imagemAltura {
+		overflow: hidden;
+	}
+
+	.paginaPadrao .detalheReserva .thumbImg .single-imagem {
+	    height: 280px;
+	}
+
+	.detalheReserva .statusPagamento {
+	    width: 100%;
+	    margin: 0px auto;
+	}
+
+	.whatsapp.buttonFlutuante {
+	    right: 4% !important;
+	    bottom: 10% !important;
+	}
+}
+
+@media (min-width: 860px) and (max-width: 1000px) {
+	.btn.search-btn {
+	    font-size: 13px;
+	}
+
+	.form-control::placeholder {
+	    font-size: 13px;
+	}
+
+	.form-control {
+	    font-size: 13px;
+	}
+	
+	.modelClientePainel .linkAfiliado p {
+	    margin-bottom: 0px;
+	    font-size: 13px;
+	}
+}
+
+
+@media (min-width: 300px) and (max-width: 500px) {
+	.meuFinanceiro .saldoDisponivel .sacarAgora {
+	    padding: 6px 12px;
+	}
+
+	.modelImagens-add .actionsButtons {
+	    display: inherit;
+	}
+
+	.modelImagens-add .actionsButtons a {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.modelCriacaoPropriedade .quadReferencia .form-control {
+		width: 100% !important;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+	.model-minhas-propriedades .blockConteudo {
+		width: 400px;
+    	font-size: 12px;
+	}
+
+	.singles-dashboard-list .statusPagamento, 
+	.singles-dashboard-list .statusAnuncio, 
+	.singles-dashboard-list .infoPlanos a {
+	    padding: 4px 20px;
+	    font-size: 10px;
+	}
+
+	.sd-list-right .action a {
+	  margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+	.model-minhas-propriedades .blockConteudo {
+		width: 280px !important;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+	.hero-search-content .btn.search-btn {
+	    font-size: 13px;
+	}
+
+	.hero-search-content .form-control {
+	    font-size: 13px;
+	}
+
+	.italian-search.hero-search-radius .input-with-icon .form-control, .italian-search.hero-search-radius .input-with-shadow .form-control, .italian-search.hero-search-radius .input-with-shadow .select2-container, .italian-search.hero-search-radius .input-with-icon .select2-container {
+	    height: 50px;
+	}
+}

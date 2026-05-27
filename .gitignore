@@ -1,0 +1,19 @@
+# Uploads de usuários (conteúdo de runtime, não é código)
+images/anuncio/
+images/cliente/
+images/noticia/
+images/banner/
+
+# Código legado pesado
+site-antigo/dev/
+
+# Arquivos e logs
+.well-known.zip
+error_log
+*.log
+logs/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db

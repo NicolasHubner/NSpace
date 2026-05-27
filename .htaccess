@@ -1,0 +1,46 @@
+AddDefaultCharset UTF-8
+
+# Mode Rewrite
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+# DEV-LOCAL: redirects https/www desativados para rodar local
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Páginas de Anúncio
+RewriteRule ^anuncios\/?$ 										anuncio_lista.php
+RewriteRule ^anuncios/([0-9]+)/([0-9]+)/([0-9]+)/([0-9A-Za-z-_]+)/([0-9]+)/([0-9A-Za-z-_]+)/([0-9A-Za-z-_]+)\/?$ 		anuncio_lista.php?pag=$1&cat=$2&subcat=$3&sort=$4&mostrar=$5&busca=$6
+RewriteRule ^anuncio/([0-9A-Za-z-_]+)/([0-9A-Za-z-_]+)\/?$	    anuncio.php?dns=$1&id=$2&%{QUERY_STRING}
+
+# Painel do cliente
+RewriteRule ^painel/([0-9A-Za-z-_]+)\/?$						cliente_painel.php?modulo=$1&%{QUERY_STRING}
+RewriteRule ^criar-propriedade\/?$ 								propriedade_cadastrar2.php?id=$1
+RewriteRule ^editar-propriedade/([0-9A-Za-z-_]+)\/?$			propriedade_editar.php?id=$1
+RewriteRule ^sair\/?$ 											sair.php
+RewriteRule ^pagamento/([0-9A-Za-z-_]+)/([0-9A-Za-z-_]+)\/?$	pagamento.php?tipo=$1&id=$2
+
+RewriteRule ^esqueci-minha-senha\/?$ 							esqueci_senha.php
+RewriteRule ^planos/([0-9A-Za-z-_]+)\/?$ 						planos.php?anuncio_id=$1
+RewriteRule ^reserva/([0-9A-Za-z-_]+)\/?$						reserva.php?id=$1&%{QUERY_STRING}
+RewriteRule ^pagamento-reserva/([0-9A-Za-z-_]+)\/?$				action/pagamentoReserva.php?id=$1
+
+RewriteRule ^cancelamento-assinatura\/?$               cancelamento-assinatura.php
+RewriteRule ^assinatura-sucesso\/?$ 							assinatura-sucesso.php
+RewriteRule ^pagamento-sucesso\/?$ 							    pagamento-sucesso.php
+RewriteRule ^404\/?$ 							                404.php
+
+# Páginas de Artigos
+RewriteRule ^artigos\/?$ 							            artigo_lista.php
+RewriteRule ^artigo/([0-9A-Za-z-_]+)\/?$	                    artigo.php?dns=$1
+
+# Tela de confirmação de email
+RewriteRule ^confirmar-email/([0-9A-Za-z-_]+)\/?$ 				confirmar_email.php?cliente_id=$1
+
+# Páginas de conteúdo
+RewriteRule ^([0-9A-Za-z-_]+)\/?$ 								pagina.php?dns=$1
