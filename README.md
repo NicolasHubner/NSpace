@@ -4,6 +4,8 @@ Marketplace de aluguel de espaços para eventos (salões, auditórios, espaços 
 campos/quadras, casas de praia, sítios, espaços para festas, estúdios, etc.). Anunciantes
 cadastram propriedades; clientes buscam, reservam e pagam online.
 
+<img width="1600" height="823" alt="image" src="https://github.com/user-attachments/assets/9422cffc-6538-4e47-9044-f8fedf4d862a" />
+
 > **Projeto legado.** Aplicação antiga (~2019), recuperada de um backup completo de cPanel
 > de março/2022. Stack já obsoleta. Mantido aqui para arquivo histórico e referência.
 
