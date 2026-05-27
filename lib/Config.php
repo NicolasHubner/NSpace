@@ -33,11 +33,11 @@ $_STATUS = array(
 if(@is_dir('/home/nspaceco/public_html/') && getenv('NSPACE_LOCAL_DEV')){
 
 	define('PATH', '/home/nspaceco/public_html/');
-	define('URL', 'http://localhost:8080/');
+	define('URL', getenv('APP_URL') ?: 'http://localhost:8080/');
 	define('CHARSET', 'utf-8');
 
 	define('DB_SGBD', 'mysql');
-	define('DB_HOST', '127.0.0.1');
+	define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
 	define('DB_USER', 'nspaceco_usuario');
 	define('DB_PSWD', 'usuario02320br');
 	define('DB_NAME', 'nspaceco_banco');
